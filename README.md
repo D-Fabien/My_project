@@ -1,3 +1,3 @@
 # Mes Projets
 
-[Anime](https://d-fabien.github.io/anime/IJVS20/API.html)
+## [Recherche Anime/Manga](https://d-fabien.github.io/anime/IJVS20/API.html)
