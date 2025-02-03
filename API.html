@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <script src="API.js" defer></script>
+    <link rel="stylesheet" href="yorha.css">
+    <style >
+        .error {
+            font-weight: bold;
+            color: red;
+        }
+
+        .form{
+            text-align: center;
+        }
+        .titre{
+            text-align: center;
+        }
+        .id{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minman(250px,1fr));
+            grid-gap: 20px;
+            max-width: 1000px;
+            max-height: 600px;
+            margin-top: 60px;
+        }
+
+        .result{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minman(250px,1fr));
+            grid-gap: 20px;
+            max-width: 1000px;
+            max-height: 600px;
+            margin-top: 60px;
+        }
+    </style>
+</head> 
+<body>
+
+    <h1 class="titre">Recherche Anime</h1>
+
+    <p class="error" style="display: none"></p>
+
+    <form class="form">
+        <input type="text" class="search" name="search"></input>
+        <button type="submit" class="submit">Search</button>
+        <p></p>
+        <div>
+            <input type="checkbox" class="manga">Manga
+            <input type="checkbox" class="author">Auteur
+            <input type="checkbox" class="perso">Personnage
+
+
+
+        </div>
+
+    </form>
+    <section class="id">
+    <ul class="id" id="animes"></ul>
+</section>
+</main>
+</body>
+</html>
